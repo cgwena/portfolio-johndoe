@@ -1,12 +1,12 @@
 const Header = () => {
     return (
         <section>
-            <nav>
+             <nav>
                     <a href="#">JOHN DOE</a>
                     <div>
                         <ul>
                             <li>
-                                <a class="active" aria-current="page" href="#">ACCUEIL</a>
+                                <a className="active" aria-current="page" href="#">ACCUEIL</a>
                             </li>
                             <li>
                                 <a href="#">SERVICES</a>
@@ -22,7 +22,6 @@ const Header = () => {
                             </li>
                         </ul>
                     </div>
-            
             </nav>
         </section>
     )
