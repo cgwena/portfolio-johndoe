@@ -90,3 +90,9 @@ a {
   left: 0;
   right: 0;
 }
+
+.banner__img {
+  width: 100vw;
+  height : 300px;
+  object-fit: cover;
+}
