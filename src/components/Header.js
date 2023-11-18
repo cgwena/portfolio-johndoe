@@ -2,8 +2,8 @@ const Header = () => {
     return (
         <section>
             <nav className="navbar navbar-expand-lg bg-dark fixed-top">
-                <div className="container-fluid ">
-                    <a className="navbar-brand text-bg-dark p-3 text-uppercase" href="#/">John Doe</a>
+                <div className="container-fluid">
+                    <a className="navbar-brand text-bg-dark p-3 text-uppercase" href="/">John Doe</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
