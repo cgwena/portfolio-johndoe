@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap');
 
+:root {
+  --color1: #0d6efd;
+  --color2: #444 ;
+  --color3: #1e1e1e;
+  --color4: #EEE;
+  --color5: #000000;
+
+}
+
 * {
   box-sizing: border-box;
 }
@@ -9,12 +18,14 @@ body {
 }
 
 nav {
-  color: #EEE ;
-  background-color: #1e1e1e;
+  color: var(--color4) ;
+  background-color: var(--color3);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 20px;
+  position: fixed;
+  width: 100vw;
   z-index: 1;
 }
 
@@ -48,7 +59,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+  position: relative;
    
 }
 
@@ -56,6 +67,9 @@ a {
   width: 100vw;
   height: 100vh;
   background-image: url('./images/software-developer-6521720_1280.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero__text {
@@ -66,7 +80,11 @@ a {
   justify-content: center;
   align-items: center;
   color:#EEE; 
-  opacity: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .hero__overlay {
@@ -74,4 +92,9 @@ a {
   height: 100vh;
   background-color: black;
   opacity: 0.3;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
