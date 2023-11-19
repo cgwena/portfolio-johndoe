@@ -7,6 +7,7 @@ import Blog from './views/Blog';
 import Legal from './views/Legal';
 import Services from './views/Services';
 import Contact from './views/Contact';
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/legal" element={<Legal />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

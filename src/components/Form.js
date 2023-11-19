@@ -5,7 +5,7 @@ const Form = () => {
         <h3 class="m-3">Formulaire de contact</h3>
         <div className="bordure2 m-3"></div>
         <form>
-            <div class="m-3">
+            <div class="p-3">
                 <input type="text" class="form-control mb-3" id="name" aria-describedby="name" placeholder="Votre nom"></input>
                 <input type="email" class="form-control mb-3" id="email" aria-describedby="email" placeholder="Votre adresse mail"></input>
                 <input type="text" class="form-control mb-3" id="phone" aria-describedby="phone" placeholder="Votre numéro de téléphone"></input>
