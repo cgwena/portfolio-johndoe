@@ -1,5 +1,3 @@
-
-
 const BlogCard = (props) => {
     return (
         <div class="card col-lg-4 col-md-6 mb-3">
