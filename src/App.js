@@ -8,6 +8,7 @@ import Legal from './views/Legal';
 import Services from './views/Services';
 import Contact from './views/Contact';
 import Footer from "./components/Footer";
+import About from "./components/About";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/legal" element={<Legal />} />
+        <Route path="/about" element={<About />} /> 
       </Routes>
       <Footer />
     </div>

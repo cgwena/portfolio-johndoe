@@ -21,7 +21,7 @@ const Footer = () => {
                     </div>
                     <div className="d-flex">
                         <i class="fa-solid fa-chevron-right text-primary p-1"></i>
-                        <a className="nav-link" aria-current="page" href="/">À propos</a>
+                        <a className="nav-link" aria-current="page" href="/about">À propos</a>
                     </div>
                     <div className="d-flex">
                         <i class="fa-solid fa-chevron-right text-primary p-1"></i>
