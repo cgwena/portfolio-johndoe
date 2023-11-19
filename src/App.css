@@ -121,7 +121,13 @@ section {
   align-self: center;
   margin-bottom: 50px;
 }
+.bordure2 {
+  width: 98%;
+  height: 3px;
+  background-color: var(--color1);
+}
+
 
 .active-header {
-  color : blue
+  color : var(--color1)
 }
