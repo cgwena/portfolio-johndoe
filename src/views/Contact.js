@@ -1,5 +1,6 @@
 import Banner from "../components/Banner"
 import Form from "../components/Form"
+import Coordonnees from "../components/Coordonnees"
 
 const Contact = () => {
     return (
@@ -8,7 +9,10 @@ const Contact = () => {
             <h2 className="text-uppercase text-center pt-5">Me contacter</h2>
             <p className="text-center">Pour me contacter en vue d'un entretien ou d'une future collaboration, merci de remplir le formulaire de contact.</p>
             <div className="bordure"></div>
-            <Form />
+            <div class='row'>
+                <Form />
+                <Coordonnees />
+            </div>
         </section>
     )
 }
