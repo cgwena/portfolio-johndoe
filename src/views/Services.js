@@ -5,7 +5,7 @@ import {services} from '../datas/services'
 const Services = () => {
 
     const service = services.map(service => {
-        return <ServiceCard title={service.title} text={service.text} icon={service.icon} />
+        return <ServiceCard title={service.title} text={service.text} icon={service.icon} key={service.id}/>
     })
 
     return (
