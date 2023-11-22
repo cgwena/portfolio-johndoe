@@ -126,3 +126,33 @@ section {
 .active-header {
   color : var(--color1)
 }
+
+.contact {
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+}
+
+.contact__img {
+  width: 100%;
+  background-image: url('./images/letter-4744847_1280.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.contact__overlay {
+  height: 100vh;
+  background-color: rgba(0,105,255,0.5);
+  position: fixed;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.footer {
+  background-color: whitesmoke;
+}

@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
-        <section>
-            <div className="row mt-3 bg-secondary bg-opacity-10 pt-3">
+        <section className="footer">
+            <div className="row mt-3 pt-3">
                 <div className="col-lg-3 px-5">
                     <h5>John Doe</h5>
                     <p>40 rue Laure Diebold</p>
