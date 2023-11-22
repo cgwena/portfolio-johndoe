@@ -4,16 +4,18 @@ import { blogArticles } from '../datas/blogArticles.js'
 
 const Blog = () => {
     const blogArticle = blogArticles.map(article => {
-        return <BlogCard img={article.img} title={article.title} text={article.text} date={article.date} alt={article.alt} key={article.id}/>
+        return <BlogCard img={article.img} title={article.title} text={article.text} date={article.date} alt={article.alt} key={article.id} />
     })
     return (
         <section>
             <Banner />
             <h2 className="text-uppercase text-center pt-5">blog</h2>
-            <p className="text-center">Retrouvez ici quelques articles sur le développement web.</p>
+            <h4 className="text-center pb-4">Retrouvez ici quelques articles sur le développement web.</h4>
             <div className="bordure"></div>
-            <div className='row m-4'>
-                {blogArticle}
+            <div className="container">
+                <div className='row g-5'>
+                    {blogArticle}
+                </div>
             </div>
         </section>
     )

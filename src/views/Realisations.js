@@ -12,7 +12,7 @@ const Realisations = () => {
         <section>
             <Banner />
             <h2 className="text-uppercase text-center pt-5">portfolio</h2>
-            <p className="text-center">Voici quelques-unes de mes réalisations</p>
+            <h4 className="text-center pb-4">Voici quelques-unes de mes réalisations</h4>
             <div className="bordure"></div>
             <div className='row m-4'>
                 {projet}

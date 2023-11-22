@@ -1,6 +1,6 @@
 const AboutText = () => {
     return (
-        <div className="col-lg-6 p-5">
+        <div className="col-lg-6 col-md-6 p-5">
 
             <h3 className="m-3">À propos</h3>
             <div className="bordure2 m-3"></div>
