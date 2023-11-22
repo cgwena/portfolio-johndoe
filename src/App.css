@@ -135,11 +135,6 @@ section {
   background-color: var(--color1);
 }
 
-
-.active-header {
-  color : var(--color1)
-}
-
 .contact {
   width: 100vw;
   min-height: 100vh;
@@ -165,7 +160,16 @@ section {
   left: 0;
   z-index: -1;
 }
+/* 
+.accordion__title {
+  color: var(--color1);
+} */
 
 .footer {
   background-color: whitesmoke;
+}
+
+.footer p {
+  font-size: medium;
+  line-height: .6;
 }

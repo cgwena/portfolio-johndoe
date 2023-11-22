@@ -12,7 +12,7 @@ const Services = () => {
         <section>
             <Banner />
             <h2 className="text-uppercase text-center pt-5">mes offres de services</h2>
-            <p className="text-center">Voici les prestations sur lesquelles je peux intervenir.</p>
+            <h4 className="text-center pb-4">Voici les prestations sur lesquelles je peux intervenir.</h4>
             <div className="bordure"></div>
             <div className='row m-4'>
                 {service}

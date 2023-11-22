@@ -4,7 +4,7 @@ const ProjectCard = (props) => {
             <img src={props.img} className="card-img-top" alt="des sushi" />
             <div className="card-body">
                 <h3 className="card-title text-center">{props.title}</h3>
-                <p className="card-text text-center">{props.text}</p>
+                <h5 className="card-text text-center">{props.text}</h5>
                 <div className='text-center'>
                     <a href="#" className="btn btn-outline-primary">Voir</a>
                 </div>

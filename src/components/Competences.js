@@ -2,7 +2,7 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 
 const Competences = () => {
     return (
-        <div className="col-lg-6 p-5">
+        <div className="col-lg-6  col-md-6 p-5">
             <img src="man-597178_1280.jpg" className="img-fluid"></img>
             <p>HTML5 90%</p>
             <ProgressBar variant="danger" now={90}/>
