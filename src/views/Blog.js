@@ -4,7 +4,7 @@ import { blogArticles } from '../datas/blogArticles.js'
 
 const Blog = () => {
     const blogArticle = blogArticles.map(article => {
-        return <BlogCard img={article.img} title={article.title} text={article.text} date={article.date} alt={article.alt} />
+        return <BlogCard img={article.img} title={article.title} text={article.text} date={article.date} alt={article.alt} key={article.id}/>
     })
     return (
         <section>
