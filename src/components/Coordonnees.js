@@ -4,8 +4,9 @@ const Coordonnees = () => {
 
             <h3 className="m-3">Mes coordonnées</h3>
             <div className="bordure2 m-3"></div>
-            <i className="fa-solid fa-location-dot px-3"></i>
-            <p className="px-3">40 rue Laure Diebold, 69009 Lyon</p>
+            <div className="d-flex">
+                <p className="px-3"><i className="fa-solid fa-location-dot px-3"></i>40 rue Laure Diebold, 69009 Lyon</p>
+            </div>
             <div className="px-3">
                 <i className="fa-solid fa-mobile-screen-button"></i>
                 <a className='text-dark' href='tel:0620304050'>06 20 30 40 50</a>

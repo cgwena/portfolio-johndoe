@@ -17,16 +17,13 @@ const LegalAccordion = () => {
           <Accordion.Body>
             <h3>John Doe</h3>
             <div className='d-inline-flex'>
-              <i className="fa-solid fa-location-dot p-1"></i>
-              <p>40 rue Laure Diebold</p>
+              <p><i className="fa-solid fa-location-dot p-1"></i>40 rue Laure Diebold</p>
             </div>
             <p>69009 Lyon, France</p>
             <div>
-              <i className="fa-solid fa-mobile-screen-button"></i>
-              <a className='text-dark' href='tel:0620304050'>06 20 30 40 50</a>
+              <a className='text-dark' href='tel:0620304050'><i className="fa-solid fa-mobile-screen-button fs-3"></i> 06 20 30 40 50</a>
             </div>
-            <i className="fa-solid fa-envelope"></i>
-            <a className='text-dark' href='mailto:john.doe@gmail.com'>john.doe@gmail.com</a>
+            <a className='text-dark' href='mailto:john.doe@gmail.com'><i className="fa-solid fa-envelope"></i> john.doe@gmail.com</a>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
