@@ -10,9 +10,9 @@ const Footer = () => {
                     </address>
                     <a className="text-black" href="tel:0610203040">Téléphone : 06 20 30 40 50</a>
                     <div className="fs-2">
-                        <a href="https://api.github.com/users/github-john-doe" target="blank"><i className="fa-brands fa-github social-media text-dark"></i></a>
-                        <a href="https://twitter.com/home" target="blank"><i className="fa-brands fa-square-twitter social-media text-dark"></i></a>
-                        <a href="https://www.linkedin.com/feed/" target="blank"><i className="fa-brands fa-linkedin social-media text-dark"></i></a>
+                        <a href="https://api.github.com/users/github-john-doe" target="blank" rel="nofollow"><i className="fa-brands fa-github social-media text-dark"></i></a>
+                        <a href="https://twitter.com/home" target="blank" rel="nofollow"><i className="fa-brands fa-square-twitter social-media text-dark"></i></a>
+                        <a href="https://www.linkedin.com/feed/" target="blank" rel="nofollow"><i className="fa-brands fa-linkedin social-media text-dark"></i></a>
                     </div>
                 </div>
                 <div className="col-lg-3 col-md-6 p-4">
