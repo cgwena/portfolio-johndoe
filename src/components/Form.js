@@ -1,7 +1,6 @@
 const Form = () => {
     return (
         <div className="col-lg-6 col-md-6">
-
             <h3 className="m-3">Formulaire de contact</h3>
             <div className="bordure2 m-3"></div>
             <form>

@@ -1,6 +1,6 @@
 const BlogCard = (props) => {
     return (
-        <li className="card col-lg-4 col-md-6 p-3" key={props.id}>
+        <li className="card col-lg-4 col-md-6" key={props.id}>
             <img src={props.img} className="card-img-top" alt={props.alt} />
             <div className="card-body">
                 <h3 className="card-title">{props.title}</h3>

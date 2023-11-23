@@ -13,7 +13,7 @@ const Blog = () => {
             <h4 className="text-center pb-4">Retrouvez ici quelques articles sur le développement web.</h4>
             <div className="bordure"></div>
             <div className="container">
-                <div className='row g-5'>
+                <div className='row'>
                     {blogArticle}
                 </div>
             </div>
