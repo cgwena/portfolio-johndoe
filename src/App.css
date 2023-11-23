@@ -16,6 +16,7 @@
 body {
   font-family: 'Nunito Sans', sans-serif;
   background-color: var(--color4);
+  position: relative;
 }
 
 h1, h2, h3, h4, h5 {
@@ -35,6 +36,10 @@ p {
   font-size: 1.5rem;
 }
 
+strong {
+  color :black;
+}
+
 ul {
   display: flex;
   justify-content: space-between;
@@ -50,7 +55,7 @@ li > a {
 
 a {
   text-decoration: none;
-  color: var(--color4);
+  color: var(--color1);
   padding: 10px;
 }
 
@@ -77,7 +82,7 @@ section {
   justify-content: center;
   align-items: center;
   position: relative;
-   
+  text-align: center;
 }
 
 .hero__img {
@@ -129,6 +134,7 @@ section {
   align-self: center;
   margin-bottom: 50px;
 }
+
 .bordure2 {
   width: 98%;
   height: 3px;
@@ -172,4 +178,71 @@ section {
 .footer p {
   font-size: medium;
   line-height: .6;
+}
+
+.gotoTop {
+  position: absolute;
+  top: 0;
+  right: 1em;           /* décalage à droite */
+  bottom: 0;            /* occupe toute la hauteur du référent */
+  pointer-events: none; /* ne prend pas l'événement du pointer */
+}
+
+.gotoTop a {
+  display: block;       /* pour prise en compte sticky */
+  position: sticky;     /* positionnement « adhérent » */
+  top: 85vh;            /* position d'affichage fixe */
+  margin-top: 100vh;    /* pour masquer verticalement au départ */
+  font-size: 3em;       /* pour bien le voir */
+  pointer-events: auto; /* reprend l'événement du pointer */
+}
+
+@media (max-width: 768px) {
+
+  h1 {
+    font-weight: bold;
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+
+  h4 {
+    font-size: 2.4rem;
+  }
+
+  h5 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .card-footer {
+    font-size: 1.6rem;
+  }
+
+  .banner__img {
+    width: 100vw;
+    height : 200px;
+    object-fit: cover;
+  }
+
+  .icon {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+  .banner__img {
+    width: 100vw;
+    height : 250px;
+    object-fit: cover;
+  }
 }
