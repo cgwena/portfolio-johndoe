@@ -73,8 +73,10 @@ const Footer = () => {
                 <i className="fa-regular fa-copyright text-bg-dark p-1"></i>
                 <small className="text-bg-dark">Designed by John Doe</small>
             </div>
-            <nav class="gotoTop">
-                <a href="#"><i class="fa-solid fa-chevron-up"></i></a>
+            <nav className="gotoTop">
+                
+                    <a href="#"><div className="gottoTop__button d-flex justify-content-center"><i class="fa-solid fa-chevron-up"></i></div></a>
+                
             </nav>
         </section>
     )
