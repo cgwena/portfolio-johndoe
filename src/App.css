@@ -6,7 +6,6 @@
   --color3: #1e1e1e;
   --color4: #EEE;
   --color5: #000000;
-
 }
 
 * {
@@ -183,18 +182,18 @@ section {
 .gotoTop {
   position: absolute;
   top: 0;
-  right: 1em;           /* décalage à droite */
-  bottom: 0;            /* occupe toute la hauteur du référent */
-  pointer-events: none; /* ne prend pas l'événement du pointer */
+  right: 1em;
+  bottom: 0;
+  pointer-events: none;
 }
 
 .gotoTop a {
-  display: block;       /* pour prise en compte sticky */
-  position: sticky;     /* positionnement « adhérent » */
-  top: 85vh;            /* position d'affichage fixe */
-  margin-top: 100vh;    /* pour masquer verticalement au départ */
-  font-size: 3em;       /* pour bien le voir */
-  pointer-events: auto; /* reprend l'événement du pointer */
+  display: block;
+  position: sticky;
+  top: 85vh;
+  margin-top: 100vh;
+  font-size: 3em;
+  pointer-events: auto;
 }
 
 @media (max-width: 768px) {
