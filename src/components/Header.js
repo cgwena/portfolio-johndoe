@@ -21,19 +21,19 @@ const Header = () => {
                     <div className="collapse navbar-collapse flex" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className={`nav-item ${activeLink === '/' ? 'active' : ''}`}>
-                                <Link className="nav-link text-bg-dark p-3 text-uppercase" aria-current="page" to="/" onClick={() => handleLinkClick('/')}>Accueil</Link>
+                                <Link className="nav-link text-white p-3 text-uppercase" aria-current="page" to="/" onClick={() => handleLinkClick('/')}>Accueil</Link>
                             </li>
                             <li className={`nav-item ${activeLink === '/services' ? 'active' : ''}`}>
-                                <Link className="nav-link text-bg-dark p-3 text-uppercase" to="/services" onClick={() => handleLinkClick('/services')}>Services</Link>
+                                <Link className="nav-link text-white p-3 text-uppercase" to="/services" onClick={() => handleLinkClick('/services')}>Services</Link>
                             </li>
                             <li className={`nav-item ${activeLink === '/portfolio' ? 'active' : ''}`}>
-                                <Link className="nav-link text-bg-dark p-3 text-uppercase" to="/portfolio" onClick={() => handleLinkClick('/portfolio')}>Réalisations</Link>
+                                <Link className="nav-link text-white p-3 text-uppercase" to="/portfolio" onClick={() => handleLinkClick('/portfolio')}>Réalisations</Link>
                             </li>
                             <li className={`nav-item ${activeLink === '/blog' ? 'active' : ''}`}>
-                                <Link className="nav-link text-bg-dark p-3 text-uppercase" to="/blog" onClick={() => handleLinkClick('/blog')}>Blog</Link>
+                                <Link className="nav-link text-white p-3 text-uppercase" to="/blog" onClick={() => handleLinkClick('/blog')}>Blog</Link>
                             </li>
                             <li className={`nav-item ${activeLink === '/contact' ? 'active' : ''}`}>
-                                <Link className="nav-link text-bg-dark p-3 text-uppercase" to="/contact" onClick={() => handleLinkClick('/contact')}>Me contacter</Link>
+                                <Link className="nav-link text-white p-3 text-uppercase" to="/contact" onClick={() => handleLinkClick('/contact')}>Me contacter</Link>
                             </li>
                             
                         </ul>
