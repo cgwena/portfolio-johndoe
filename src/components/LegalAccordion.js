@@ -21,9 +21,9 @@ const LegalAccordion = () => {
             </div>
             <p>69009 Lyon, France</p>
             <div>
-              <a className='text-dark' href='tel:0620304050'><i className="fa-solid fa-mobile-screen-button fs-3"></i> 06 20 30 40 50</a>
+              <a href='tel:0620304050'><i className="fa-solid fa-mobile-screen-button text-dark"></i> 06 20 30 40 50</a>
             </div>
-            <a className='text-dark' href='mailto:john.doe@gmail.com'><i className="fa-solid fa-envelope"></i> john.doe@gmail.com</a>
+            <a href='mailto:john.doe@gmail.com'><i className="fa-solid fa-envelope text-dark "></i> john.doe@gmail.com</a>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
@@ -32,7 +32,7 @@ const LegalAccordion = () => {
             <h3>Always Data</h3>
             <address>91 rue du Faubourg Saint-Honoré</address>
             <address>75008 Paris</address>
-            <i classNameName="fa-solid fa-globe"></i>
+            <i className="fa-solid fa-globe"></i>
             <a className='text-primary' href="http://www.alwaysdata.com" target='blank'>www.alwaysdata.com</a>
           </Accordion.Body>
         </Accordion.Item>
