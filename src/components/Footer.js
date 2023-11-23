@@ -1,4 +1,18 @@
+import { useState, useEffect } from "react"
+
 const Footer = () => {
+    const [user, setUser] = useState([])
+
+    const getUser = async () => {
+        const res = await fetch('https://api.github.com/users/github-john-doe')
+        const json = await res.json()
+        setUser(json)
+    }
+
+    useEffect(() => {
+        getUser()
+    },[])
+  
     return (
         <section className="footer">
             <div className="row">
@@ -10,7 +24,7 @@ const Footer = () => {
                     </address>
                     <a className="text-black" href="tel:0610203040">Téléphone : 06 20 30 40 50</a>
                     <div className="fs-2">
-                        <a href="https://api.github.com/users/github-john-doe" target="blank" rel="nofollow"><i className="fa-brands fa-github social-media text-dark"></i></a>
+                        <a href={user.html_url} target="blank" rel="nofollow"><i className="fa-brands fa-github social-media text-dark"></i></a>
                         <a href="https://twitter.com/home" target="blank" rel="nofollow"><i className="fa-brands fa-square-twitter social-media text-dark"></i></a>
                         <a href="https://www.linkedin.com/feed/" target="blank" rel="nofollow"><i className="fa-brands fa-linkedin social-media text-dark"></i></a>
                     </div>
@@ -74,7 +88,7 @@ const Footer = () => {
                 <small className="text-bg-dark">Designed by John Doe</small>
             </div>
             <nav className="gotoTop">   
-                <a href="#"><div className="gottoTop__button d-flex justify-content-center"><i class="fa-solid fa-chevron-up"></i></div></a>
+                <a href="#"><div className="gottoTop__button d-flex justify-content-center"><i className="fa-solid fa-chevron-up"></i></div></a>
 
             </nav>
         </section>
