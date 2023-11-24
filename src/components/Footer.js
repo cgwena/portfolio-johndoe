@@ -17,12 +17,12 @@ const Footer = () => {
         <section className="footer">
             <div className="row">
                 <div className="col-lg-3 col-md-6 p-4">
-                    <h5>John Doe</h5>
-                    <address>
+                    <h5 className="px-3">John Doe</h5>
+                    <address className="px-3">
                         <p>40 rue Laure Diebold</p>
                         <p>69009 Lyon, France</p>
                     </address>
-                    <a className="text-black" href="tel:0610203040">Téléphone : 06 20 30 40 50</a>
+                    <a className="text-black px-3" href="tel:0610203040">Téléphone : 06 20 30 40 50</a>
                     <div className="fs-2">
                         <a href={user.html_url} target="blank" rel="nofollow"><i className="fa-brands fa-github social-media text-dark"></i></a>
                         <a href="https://twitter.com/home" target="blank" rel="nofollow"><i className="fa-brands fa-square-twitter social-media text-dark"></i></a>
@@ -56,30 +56,30 @@ const Footer = () => {
                     <h5>Mes dernières réalisations</h5>
                     <div className="d-flex">
                         <i className="fa-solid fa-chevron-right text-primary p-1"></i>
-                        <a className="nav-link">Fresh Food</a>
+                        <a href="/portfolio" className="nav-link">Fresh Food</a>
                     </div>
                     <div className="d-flex">
                         <i className="fa-solid fa-chevron-right text-primary p-1"></i>
-                        <a className="nav-link">Restaurant Akira</a>
+                        <a href="/portfolio" className="nav-link">Restaurant Akira</a>
                     </div>
                     <div className="d-flex">
                         <i className="fa-solid fa-chevron-right text-primary p-1"></i>
-                        <a className="nav-link">Espace bien-être</a>
+                        <a href="/portfolio" className="nav-link">Espace bien-être</a>
                     </div>
                 </div>
                 <div className="col-lg-3 col-md-6 p-4">
                     <h5>Mes derniers articles</h5>
                     <div className="d-flex">
                         <i className="fa-solid fa-chevron-right text-primary p-1"></i>
-                        <a className="nav-link">Coder son site en HTML/CSS</a>
+                        <a href="/blog" className="nav-link">Coder son site en HTML/CSS</a>
                     </div>
                     <div className="d-flex">
                         <i className="fa-solid fa-chevron-right text-primary p-1"></i>
-                        <a className="nav-link">Vendre ses produits sur le web</a>
+                        <a href="/blog" className="nav-link">Vendre ses produits sur le web</a>
                     </div>
                     <div className="d-flex">
                         <i className="fa-solid fa-chevron-right text-primary p-1"></i>
-                        <a className="nav-link">Se positionner sur Google</a>
+                        <a href="/blog" className="nav-link">Se positionner sur Google</a>
                     </div>
                 </div>
             </div>

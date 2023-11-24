@@ -5,7 +5,8 @@ export const projects = [
         "text" : "Réalisation d'un site avec commande en ligne.",
         "img": "vegetables-752153_1280.jpg",
         "alt": "un panier de légumes frais",
-        "tech": " avec PHP et MySQL"
+        "tech": "Site réalisé avec PHP et MySQL",
+        "btn": "Voir"
     },
 
     {
@@ -14,7 +15,8 @@ export const projects = [
         "text" : "Réalisation d'un site vitrine.",
         "img": "sushi-354628_1280.jpg",
         "alt": "des sushi",
-        "tech": "avec Wordpress"
+        "tech": "Site réalisé avec Wordpress",
+        "btn": "Voir"
     },
 
     {
@@ -23,6 +25,7 @@ export const projects = [
         "text" : "Réalisation d'un site vitrine pour un patricien du bien-être.",
         "img": "buddha-708490_1280.jpg",
         "alt": "un boudha et une pile de pierres plates",
-        "tech": "en HTML/CSS"
+        "tech": "Site réalisé en HTML/CSS",
+        "btn": "Voir"
     }
 ]

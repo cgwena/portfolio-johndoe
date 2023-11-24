@@ -15,7 +15,7 @@ const Header = () => {
             <nav className="navbar navbar-expand-lg bg-dark fixed-top">
                 <div className="container-fluid">
                     <Link className="navbar-brand text-bg-dark px-5 text-uppercase fw-bold fs-3" to="/">John Doe</Link>
-                    <button className="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button className="navbar-toggler border-white" data-bs-theme="dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>                       
                     <div className="collapse navbar-collapse flex" id="navbarNav">
