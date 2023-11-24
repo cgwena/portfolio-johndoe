@@ -68,3 +68,55 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+#### Prérequis du projet
+
+1 - Contenu des pages
+
+Une page d'accueil avec:
+- Une image de fond en pleine page, des balises h1 et h2, un bouton « En savoirplus » avec un lien vers la section « À propos ». Au-dessus de l’image d’arrière-plan doitse superposer un fond de couleur noire, avec une transparence de 0.3.
+- Une section « À propos » avec une présentation de John Doe, sa photo et ses compétences affichées sous forme de progress bars Bootstrap.
+
+1 page de services avec la présentation des offres de services que John Doe propose.
+
+1 page réalisations avec le portfolio de John Doe, avec un minimum de 3 projets, présentés sous forme de Bootstrap Card.
+
+1 page blog avec une introduction de 6 articles, présentés sous forme de Bootstrap Card.
+
+1 page de contact avec :
+- Un formulaire de contact intégrant les champs nom, e-mail, numéro de téléphone, sujet et message (tous obligatoires).
+- Les coordonnées de John Doe : adresse, numéro de téléphone et Google Map.
+- L’image de fond de la section doit être recouverte d’un fond bleu transparent : rgba (0, 105, 255, 0.5)
+
+1 page avec les mentions légales :
+- L’éditeur du site
+- L’hébergeur du site
+- Les crédits, avec un lien vers le site de Pixabay pour les images.
+La présentation est réalisée en utilisant le composant accordéon de Bootstrap.
+Cette page ne doit pas être indexée par les moteurs de recherche.
+
+Le header :
+- Le header est présent sur toutes les pages.
+- Il reprend le logo à gauche et la navigation vers les pages à droite. Sur mobile et tablette, la navigation s’affiche sous forme d’icône de « hamburger ».
+- L’élément actif doit pouvoir être affiché dans une autre couleur ou nuance. La classe « active » peut être ajoutée dans le HTML ou en utilisant du code JavaScript.
+- Le texte des hyperliens est affiché en majuscule, en utilisant des règles CSS ou une classe Bootstrap.
+
+Le footer :
+- Le footer est identique sur toutes les pages.
+- Il contient 4 colonnes de largeur égale :
+    - La 1re avec le nom du développeur, son adresse, son numéro de téléphone et les icônes vers ses réseaux professionnels (Github, Twitter et LinkedIn). Les icônes doivent être cliquables et mener vers les comptes que John Doe possède sur les différents réseaux. Les liens doivent s’ouvrir dans une nouvelle fenêtre et
+ne doivent pas être suivis pour le SEO.
+    - La 2e colonne reprend les liens vers les différentes pages, à l’exception des réalisations et des articles de blog.
+    - La 3e colonne reprend les liens vers les dernières réalisations.
+    - La 4e colonne reprend les liens vers les derniers articles de blog.
+- Il reprend en plus une ligne de copyright et un lien pour remonter en haut de la page. Ce dernier lien n'apparaît pas lorsque l’utilisateur est positionné en haut de la page, mais doit apparaître lors du défilement (utiliser la librairie Vanilla JS).
+
+2 - Effets graphiques
+-  Navigation : au survol d’un lien, appliquer un blanc avec une transparence de 0.8.
+-  Page services : la couleur de l’icône devient #cde1f8 au survol de l’article.
+-  Bouton retour en haut : la couleur de fond devient #298eff.
+
+3 - React JS
+L’application React doit afficher les informations d’un profil GitHub, par défaut vous pouvez utiliser le profil fictif de John Doe : https://api.github.com/users/github-john-doe
+Vous utiliserez les composants fonctionnels et les hooks pour gérer l’état de l’application.
+L’affichage des informations du profil se fait dans une fonction séparée.
