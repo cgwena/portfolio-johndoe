@@ -1,4 +1,5 @@
 import Banner from "../components/Banner"
+import PageTop from "../components/PageTop"
 import ServiceCard from "../components/Service-card"
 import { services } from '../datas/services'
 
@@ -11,9 +12,10 @@ const Services = () => {
     return (
         <section>
             <Banner />
-            <h2 className="text-uppercase text-center pt-5">mes offres de services</h2>
-            <h4 className="text-center pb-4">Voici les prestations sur lesquelles je peux intervenir.</h4>
-            <div className="bordure"></div>
+            <PageTop 
+                title="mes offres de services"
+                subtitle="Voici les prestations sur lesquelles je peux intervenir."
+            />
             <div className="container text-center">
                 <div className='row'>
                     {service}

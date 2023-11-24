@@ -1,21 +1,23 @@
 import Banner from "../components/Banner"
-import ProjectCard from "../components/Project-card"
+import PageTop from "../components/PageTop"
+import Card from "../components/Card"
 import { projects } from '../datas/projects'
 
 const Realisations = () => {
 
     const projet = projects.map(projet => {
-        return <ProjectCard img={projet.img} title={projet.title} text={projet.text} tech={projet.tech} alt={projet.alt} key={projet.id} />
+        return <Card img={projet.img} title={projet.title} text={projet.text} detail={projet.tech} alt={projet.alt} btn={projet.btn} key={projet.id} />
     })
 
     return (
         <section>
             <Banner />
-            <h2 className="text-uppercase text-center pt-5">portfolio</h2>
-            <h4 className="text-center pb-4">Voici quelques-unes de mes réalisations</h4>
-            <div className="bordure"></div>
+            <PageTop 
+                title="portfolio"
+                subtitle="Voici quelques-unes de mes réalisations"
+            />
             <div className="container text-center">
-                <div className='row'>
+                <div className='row projet-card'>
                     {projet}
                 </div>
             </div>
